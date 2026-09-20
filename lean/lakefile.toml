@@ -1,0 +1,11 @@
+name = "vcdim_convex_bound_fc"
+version = "0.1.0"
+defaultTargets = ["VCDimConvexBoundFC"]
+
+[[require]]
+name = "formal_conjectures"
+git = "https://github.com/google-deepmind/formal-conjectures"
+rev = "b86fdb9a8f2f83d2bb2b4281586705896c0c8208"
+
+[[lean_lib]]
+name = "VCDimConvexBoundFC"
